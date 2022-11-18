@@ -1,5 +1,12 @@
 # To Do
 
+## To Run 
+
+```
+$ yarn install
+$ yarn start
+
+```
 ```bash 
  $ npx create-expo-app todo -t expo-template-blank-typescript
  $ yarn start

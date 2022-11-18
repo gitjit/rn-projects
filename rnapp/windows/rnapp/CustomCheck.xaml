@@ -1,0 +1,18 @@
+﻿<UserControl
+    x:Class="rnapp.CustomCheck"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:rnapp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="53" Width="209">
+
+    <Grid x:Name="TaskBack">
+        <CheckBox x:Name="chk_taskName" Margin="10,0,0,0"  Click="chk_taskName_Click" Background="Yellow" Width="195">
+            <TextBlock x:Name="txt_taskName"  Foreground="Red">
+                <Run Text="Task Name"/>
+            </TextBlock>
+        </CheckBox>
+
+    </Grid>
+</UserControl>
